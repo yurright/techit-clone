@@ -34,7 +34,7 @@ const bannerData = [
 
 const Banner = () => {
   const sliderRef = useRef();
-  const [page, setPage] = useState();
+  const [page, setPage] = useState(1);
 
   const onClickNext = () => {
     sliderRef.current.slickNext();
