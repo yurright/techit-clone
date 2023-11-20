@@ -1,6 +1,7 @@
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import KdtSection from "./components/KdtSection";
+import ScheduleSection from "./components/ScheduleSection";
 import TopBanner from "./components/TopBanner";
 
 const App = () => {
@@ -10,10 +11,7 @@ const App = () => {
       <Header />
       <Banner />
       <KdtSection />
-      <section className="mt-20 bg-yellow-100 container">
-        <div className="bg-green-100 h-[64.5px]">Schedule</div>
-        <div className="bg-blue-100 h-[280px]">KDT</div>
-      </section>
+      <ScheduleSection />
       <div className=" mt-20 bg-yellow-100 h-[206px]">Alarm banner</div>
       <section className="mt-20 bg-yellow-100 container">
         <div className="bg-green-100 h-[64.5px]">Onboarding</div>

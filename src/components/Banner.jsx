@@ -64,6 +64,7 @@ const Banner = () => {
           arrows={false}
           autoplay={true}
           autoplaySpeed={1000}
+          fade={true}
         >
           {bannerData.map((v, i) => (
             <BannerCard key={i} title={v.title} desc={v.desc} image={v.image} />
@@ -72,7 +73,7 @@ const Banner = () => {
       </ul>
       <div className=" absolute w-[1280px] px-6 left-1/2 -translate-x-1/2 bottom-6">
         <div className="text-white bg-black w-fit bg-opacity-30 flex py-[5px] rounded-full text-xs gap-2 px-3">
-          <div className="w-4">
+          <div className="">
             {page + 1}/{bannerData.length}
           </div>
           <button onClick={onClickPrev}>

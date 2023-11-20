@@ -5,7 +5,7 @@ const Header = () => {
     <header className="bg-white  h-16 border-b sticky top-0 z-10">
       <div className="container flex justify-between items-center">
         <div className="flex items-center">
-          <div className="w-36 h-16 py-6 pr-6">
+          <div className="w-36 h-16 py-6 pr-6 cursor-pointer">
             <img
               className=""
               src="https://techit.education/img/techit_logo.svg"
@@ -13,7 +13,7 @@ const Header = () => {
             />
           </div>
 
-          <ul className="hidden lg:flex relative ">
+          <ul className="hidden lg:flex relative cursor-pointer  ">
             <li className="header-menu">테킷 스쿨</li>
             <li className="header-menu relative">
               <div className="absolute right-2 -top-3 w-4 h-4 flex justify-center items-center rounded-full bg-[#ef4444] text-[10px] text-white ">
